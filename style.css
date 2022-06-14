@@ -207,3 +207,33 @@ th, td, p, input {
             padding: 15px 40px;
             color: #000000;
           }
+
+          .Team_maindiv{
+            /* width: 100%;
+             */
+            margin-top: 50px;
+            /* margin-left: 50px; */
+            width: 700px;
+           
+          }
+          
+          .Team_maindiv table{
+            margin: 0 auto;
+            
+           
+          }
+
+          .Team_maindiv th {
+            font-size: 18px;
+            padding: 18px;
+            background-color: rgb(224, 232, 217);
+          }
+          .Team_maindiv td{
+            font-size: 15px;
+            padding: 10px;
+            color: #000000;
+          }
+          .Team_maindiv a{
+            color: #1c5dc0;
+            text-decoration: none;
+          }
