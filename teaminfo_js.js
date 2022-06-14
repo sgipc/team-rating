@@ -259,6 +259,95 @@ function loaddata(str) {
     return data;
 };
 
+function previous(data)
+{
+
+    var contest_name = [
+        "RUET IUPC Practice - 01",
+        "RUET IUPC Practice - 02",
+        "RUET IUPC Practice - 03",
+        "ICPC Collaborative 26"
+    ]
+    // CREATE DYNAMIC TABLE.
+  var table = document.createElement("table");
+
+  console.log(data);
+
+  // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
+
+  var tr = table.insertRow(-1);                   // TABLE ROW.
+
+  var th = document.createElement("th");
+  th.innerHTML = "Contest id";
+  tr.appendChild(th);
+
+  th = document.createElement("th");
+  th.innerHTML = "Contest Name";
+  tr.appendChild(th);
+
+
+ // tr = table.insertRow(-1);  
+  th = document.createElement("th");
+  th.innerHTML = "Changes";
+  tr.appendChild(th);
+
+ // tr = table.insertRow(-1);  
+  th = document.createElement("th");
+  th.innerHTML = "New Rating";
+  tr.appendChild(th);
+
+  var last = 1500;
+  for(var i = 0;i<data.length-2;i++){
+    tr = table.insertRow(-1);
+    var tabCell = tr.insertCell(-1);
+
+    tabCell.innerHTML = i+1;
+    tabCell = tr.insertCell(-1);
+    tabCell.innerHTML = contest_name[i];
+
+    var val = parseInt(data[i]);
+    
+
+    tabCell = tr.insertCell(-1);
+    if(val==0){
+        tabCell.innerHTML = ("0").bold();
+    }
+    else if(val-last>=0 )
+    {
+        var new_ = val - last;
+        last = val;
+        
+        tabCell.style.color = "green";
+        tabCell.innerHTML = ("+"+new_).bold();
+    }
+    else{ 
+        var new_ = val - last;
+        last = val;
+
+
+        tabCell.style.color = "red";
+        tabCell.innerHTML = (""+new_).bold();
+
+    }
+
+    tabCell = tr.insertCell(-1);
+    tabCell.innerHTML = val;
+
+
+
+        
+}
+
+
+
+
+  // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
+  var divContainer = document.getElementById("previous_changes");
+  divContainer.innerHTML = "";
+  divContainer.appendChild(table);
+
+}
+
 
 function indiFunction() {
 
@@ -276,6 +365,11 @@ function indiFunction() {
     // }
     document.getElementById("Team_name").innerHTML = myParam + " ";
     document.getElementById("team_member").innerHTML = data[data.length-1] + " ";
+
+    previous(data);
+
+
+
 
 
 };
