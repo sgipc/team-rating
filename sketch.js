@@ -158,6 +158,29 @@ function myFunction() {
       }
   }
 
+  Teams.sort((a, b)=>
+  {
+    if(parseInt(a.rating)==parseInt(b.rating)){
+      if(parseInt(a.contest_count)<parseInt(b.contest_count)){
+        return 1;
+      }
+      else{
+        return -1;
+      }
+    }
+    else{
+      if(parseInt(a.rating)<parseInt(b.rating))
+      {
+        return 1;
+      }
+      else{
+        return -1;
+      }
+    }
+  });
+
+  
+
   // CREATE DYNAMIC TABLE.
   var table = document.createElement("table");
 
@@ -213,12 +236,12 @@ function myFunction() {
                 var add = parseInt(Teams[i][col[j]])-1500;
                  if(add>=0){
                   tabCell.style.color = "green";
-                  tabCell.innerHTML = "+"+ add;
+                  tabCell.innerHTML = ("+"+ add).bold();
 
                  }
                  else{
                   tabCell.style.color = "red";
-                tabCell.innerHTML = add;
+                tabCell.innerHTML = (""+add).bold();
 
                  }
               }
@@ -230,13 +253,13 @@ function myFunction() {
             else {
               if(parseInt(Teams[i][col[j]])<0){
                 tabCell.style.color = "red";
-                tabCell.innerHTML = Teams[i][col[j]];
+                tabCell.innerHTML = (Teams[i][col[j]]).bold();
               }
               // else if( parseInt(Teams[i][col[j]])>0) {
                 else{
   
                   tabCell.style.color = "green";
-                  tabCell.innerHTML = "+"+ Teams[i][col[j]];
+                  tabCell.innerHTML = ("+"+ Teams[i][col[j]]).bold();
               }
               
             }
