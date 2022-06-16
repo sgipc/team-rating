@@ -10,7 +10,7 @@
 <body onload="indiFunction()">
   <div class="sgipclogo" style="background-color:transparent;">
        
-    <img  class="sgipclogoi logoshadowi "  src="logo.png"/>
+    <a class="navbar-brand" href="index.html"><img  class="sgipclogoi logoshadowi "  src="logo.png"/></a>
   </div>
   <br>
   <br>
@@ -19,19 +19,25 @@
   border-radius: 5px;">
  <div class="teammain">
     <h1 style="font-size: 50px;" id ="Team_name"></h1><br>
-    <p class="multiline" style="margin-left: 20px; font-size: 16px;" id="team_member"></p>
+    <hr style=" margin-left:20px;border-top: 2px dotted rgb(7, 5, 5);  float: left; width: 200px;"><br>
+    <p class="multiline" style="margin-left: 20px; font-size: 18px;" id="team_member"></p>
+    <hr style=" margin-left:20px;border-top: 2px dotted rgb(7, 5, 5);  float: left; width: 200px;"><br>
+    <p style="margin-left: 20px; font-size: 20px;"> Current rating: <b style="color: blue;" id ="curent_rating"></b></p>
+   
+    <p style="margin-left: 20px; font-size: 20px;"> Max rating: <b style="color: green;" id="max_rating"></b> </p>
+    
     <br>
     
     <p id="showData"></p>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <br>
-    <div style="margin-right:20px;margin-left: 20px; text-align: center; width: 1000px; height: 1800px;">
+    <div style="margin-left: 20px; text-align: center; width: 1200px; height: 1800px;">
     <br>
-    <h1 style="text-align: center;margin-right:50px;">Rating Changes</h1>
-    <div id="chart_div"  style="text-align: center;width: 900px; height: 400px;"></div>
+    <h1 style="text-align: center;">Rating Changes</h1>
+    <div id="chart_div"  style="text-align: center;width: 1200px; height: 400px;"></div>
     <br>
-        <div class="Team_maindiv">
-      <h1  style=" text-align: center;">Contest Statistics</h1>
+    <div class="Team_maindiv">
+      <h1 id ="Team_name"  style=" text-align: center;">Contests' Statistics</h1>
       <div id="previous_changes"></div>
 
     </div> 
