@@ -58,7 +58,7 @@ th, td, p, input {
             width: 200px;
             height: 40px;
             background-color: rgba(231, 125, 231, 0.703);
-            background-color:;
+
             color: rgb(5, 3, 3);
             font-size: 18px;
             text-align: center;
@@ -138,7 +138,7 @@ th, td, p, input {
             margin-top: 50px;
             font-size: 25px;
             text-align: center;
-            width: 900px;
+
            
            
           }
@@ -151,13 +151,13 @@ th, td, p, input {
 
           .maindiv th {
             font-size: 22px;
-            padding: 20px;
+            padding: 15px;
             background-color: rgb(224, 232, 217);
           }
           .maindiv td{
             font-size: 20px;
-            padding: 10px;
-            color: #000000;
+            padding: 15px;
+            /* color: #000000; */
           }
           .maindiv a{
             color: #1c5dc0;
