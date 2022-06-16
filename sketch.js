@@ -1,149 +1,150 @@
 function myFunction() {
   var Teams = [
-{
-  "rank": "1",
-  "handle": "KuetEffervescent",
-  "rating": "1964",
-  "contest_count": "4",
-  "rating_change": "34",
-  "last_contest": "3"
-},
-{
-  "rank": "2",
-  "handle": "KUET_BreakDown",
-  "rating": "1716",
-  "contest_count": "4",
-  "rating_change": "62",
-  "last_contest": "3"
-},
-{
-  "rank": "3",
-  "handle": "KUET_FALCONS",
-  "rating": "1699",
-  "contest_count": "4",
-  "rating_change": "-3",
-  "last_contest": "3"
-},
-{
-  "rank": "4",
-  "handle": "KUET_Blaziken",
-  "rating": "1633",
-  "contest_count": "4",
-  "rating_change": "67",
-  "last_contest": "3"
-},
-{
-  "rank": "5",
-  "handle": "KUET_Sisyphus",
-  "rating": "1516",
-  "contest_count": "1",
-  "rating_change": "1516",
-  "last_contest": "3"
-},
-{
-  "rank": "6",
-  "handle": "KUET_Musashis",
-  "rating": "1481",
-  "contest_count": "4",
-  "rating_change": "-20",
-  "last_contest": "3"
-},
-{
-  "rank": "7",
-  "handle": "KUET_BUGMAN",
-  "rating": "1447",
-  "contest_count": "4",
-  "rating_change": "56",
-  "last_contest": "3"
-},
-{
-  "rank": "8",
-  "handle": "KUET_Mayhem",
-  "rating": "1358",
-  "contest_count": "1",
-  "rating_change": "1358",
-  "last_contest": "3"
-},
-{
-  "rank": "9",
-  "handle": "KUET_Desperados",
-  "rating": "1330",
-  "contest_count": "1",
-  "rating_change": "1330",
-  "last_contest": "3"
-},
-{
-  "rank": "10",
-  "handle": "trinityRaven",
-  "rating": "1273",
-  "contest_count": "1",
-  "rating_change": "1273",
-  "last_contest": "1"
-},
-{
-  "rank": "11",
-  "handle": "Team_Phoenix",
-  "rating": "1246",
-  "contest_count": "4",
-  "rating_change": "67",
-  "last_contest": "3"
-},
-{
-  "rank": "12",
-  "handle": "Team_Blackburn",
-  "rating": "1231",
-  "contest_count": "1",
-  "rating_change": "1231",
-  "last_contest": "2"
-},
-{
-  "rank": "13",
-  "handle": "KUET_Crusaders",
-  "rating": "1090",
-  "contest_count": "1",
-  "rating_change": "1090",
-  "last_contest": "3"
-},
-{
-  "rank": "14",
-  "handle": "Loop_Breakers",
-  "rating": "1043",
-  "contest_count": "1",
-  "rating_change": "1043",
-  "last_contest": "2"
-},
-{
-  "rank": "15",
-  "handle": "KUET_LAZYCODERS",
-  "rating": "1027",
-  "contest_count": "1",
-  "rating_change": "1027",
-  "last_contest": "3"
-},
-{
-  "rank": "16",
-  "handle": "ShowStoppers",
-  "rating": "951",
-  "contest_count": "1",
-  "rating_change": "951",
-  "last_contest": "2"
-},
-{
-  "rank": "17",
-  "handle": "KUET_EXPLORERS",
-  "rating": "946",
-  "contest_count": "1",
-  "rating_change": "946",
-  "last_contest": "1"
-},
-{
-  "rank": "18",
-  "handle": "KUET_Yeti",
-  "rating": "934",
-  "contest_count": "1",
-  "rating_change": "934",
-  "last_contest": "3"
-}
+    {
+        "rank": "1",
+        "handle": "KuetEffervescent",
+        "rating": "1963",
+        "contest_count": "4",
+        "rating_change": "35",
+        "last_contest": "3"
+    },
+    {
+        "rank": "2",
+        "handle": "KUET_FALCONS",
+        "rating": "1693",
+        "contest_count": "4",
+        "rating_change": "-4",
+        "last_contest": "3"
+    },
+    {
+        "rank": "3",
+        "handle": "KUET_BreakDown",
+        "rating": "1660",
+        "contest_count": "4",
+        "rating_change": "99",
+        "last_contest": "3"
+    },
+    {
+        "rank": "4",
+        "handle": "KUET_Blaziken",
+        "rating": "1634",
+        "contest_count": "4",
+        "rating_change": "57",
+        "last_contest": "3"
+    },
+    {
+        "rank": "5",
+        "handle": "KUET_Musashis",
+        "rating": "1515",
+        "contest_count": "4",
+        "rating_change": "-28",
+        "last_contest": "3"
+    },
+    {
+        "rank": "6",
+        "handle": "KUET_Sisyphus",
+        "rating": "1506",
+        "contest_count": "1",
+        "rating_change": "1506",
+        "last_contest": "3"
+    },
+    {
+        "rank": "7",
+        "handle": "KUET_BUGMAN",
+        "rating": "1486",
+        "contest_count": "4",
+        "rating_change": "48",
+        "last_contest": "3"
+    },
+    {
+        "rank": "8",
+        "handle": "KUET_Mayhem",
+        "rating": "1363",
+        "contest_count": "1",
+        "rating_change": "1363",
+        "last_contest": "3"
+    },
+    {
+        "rank": "9",
+        "handle": "KUET_Desperados",
+        "rating": "1338",
+        "contest_count": "1",
+        "rating_change": "1338",
+        "last_contest": "3"
+    },
+    {
+        "rank": "10",
+        "handle": "trinityRaven",
+        "rating": "1273",
+        "contest_count": "1",
+        "rating_change": "1273",
+        "last_contest": "1"
+    },
+    {
+        "rank": "11",
+        "handle": "Team_Blackburn",
+        "rating": "1252",
+        "contest_count": "1",
+        "rating_change": "1252",
+        "last_contest": "2"
+    },
+    {
+        "rank": "12",
+        "handle": "Team_Phoenix",
+        "rating": "1252",
+        "contest_count": "4",
+        "rating_change": "69",
+        "last_contest": "3"
+    },
+    {
+        "rank": "13",
+        "handle": "KUET_Crusaders",
+        "rating": "1098",
+        "contest_count": "1",
+        "rating_change": "1098",
+        "last_contest": "3"
+    },
+    {
+        "rank": "14",
+        "handle": "Loop_Breakers",
+        "rating": "1051",
+        "contest_count": "1",
+        "rating_change": "1051",
+        "last_contest": "2"
+    },
+    {
+        "rank": "15",
+        "handle": "KUET_LAZYCODERS",
+        "rating": "1033",
+        "contest_count": "1",
+        "rating_change": "1033",
+        "last_contest": "3"
+    },
+    {
+        "rank": "16",
+        "handle": "ShowStoppers",
+        "rating": "955",
+        "contest_count": "1",
+        "rating_change": "955",
+        "last_contest": "2"
+    },
+    {
+        "rank": "17",
+        "handle": "KUET_EXPLORERS",
+        "rating": "946",
+        "contest_count": "1",
+        "rating_change": "946",
+        "last_contest": "1"
+    },
+    {
+        "rank": "18",
+        "handle": "KUET_Yeti",
+        "rating": "938",
+        "contest_count": "1",
+        "rating_change": "938",
+        "last_contest": "3"
+    }
+
 ]
 
   // EXTRACT VALUE FOR HTML HEADER. 
