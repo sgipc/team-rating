@@ -1,7 +1,7 @@
 
 
 
-google.charts.load('current', {packages: ['corechart', 'line']});
+google.charts.load('current', { packages: ['corechart', 'line'] });
 
 function drawBackgroundColor(getdata) {
     var data = new google.visualization.DataTable();
@@ -12,222 +12,222 @@ function drawBackgroundColor(getdata) {
     var c = []
     //tempdata.push(c);
 
-    for( var i =0;i<getdata.length-2;i++)
-    {
+    for (var i = 0; i < getdata.length - 2; i++) {
         var val = getdata[i];
-        if(val=="0"){
+        if (val == "0") {
             continue;
         }
-        else{
-            var point = [i+1, parseInt(val)];
-            console.log(typeof(val));
+        else {
+            var point = [i + 1, parseInt(val)];
+            console.log(typeof (val));
             tempdata.push(point);
         }
     }
 
-    console.log(tempdata.length+"  temp");
+    console.log(tempdata.length + "  temp");
     data.addRows(tempdata);
 
-    var maxx= data.length;
+    var maxx = data.length;
 
 
     var options = {
-      hAxis: {
-        title: 'Contest No.',
-        format :'0'
-      },
-      vAxis: {
-        title: 'Rating',
-        // gridlines: { count: maxx+1}, //+1 is importent for the origingridline
-        // viewWindow:{
-        //   min: 0,
-        //   max: maxx
-        // },
-        
-      },
-      pointSize: 8,
-      gridlines: { count: -1},
-      series: {
-        0: { pointShape: 'circle'}
-    },
-      
-      
-      backgroundColor: '#f1f8e9'
+        hAxis: {
+            title: 'Contest No.',
+            format: '0'
+        },
+        vAxis: {
+            title: 'Rating',
+            // gridlines: { count: maxx+1}, //+1 is importent for the origingridline
+            // viewWindow:{
+            //   min: 0,
+            //   max: maxx
+            // },
+
+        },
+        pointSize: 8,
+        gridlines: { count: -1 },
+        series: {
+            0: { pointShape: 'circle' }
+        },
+
+
+        backgroundColor: '#f1f8e9'
     };
 
     var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
     chart.draw(data, options);
-  }
+}
 
 
 
 function loaddata(str) {
 
-    console.log(typeof(str));
+    console.log(typeof (str));
     var Teams_ratings = [
         {
-        "handle": "handle",
-        "1": "RUET - 01",
-        "2": "RUET - 02",
-        "3": "RUET -03",
-        "4": "Collaborative - 26",
-        "team":"team_"
-    },
-    {
-        "handle": "KuetEffervescent",
-        "1": "1757",
-        "2": "1874",
-        "3": "1928",
-        "4": "1963",
-        "team":"Mehrab Hossain Opi '2k17\nArnob Sarker '2k18\nSHarif Minhazul Emon '2k18\n"
-    },
-    {
-        "handle": "KUET_BreakDown",
-        "1": "1177",
-        "2": "1487",
-        "3": "1561",
-        "4": "1660",
-        "team":"Md. Mustafizur Rahman Arman '2k17\nMahadi Hasan '2k17\nLikhon Sarker '2k16"
-    },
-    {
-        "handle": "KUET_FALCONS",
-        "1": "1595",
-        "2": "1621",
-        "3": "1697",
-        "4": "1693",
-        "team":""
-    },
-    {
-        "handle": "KUET_Blaziken",
-        "1": "1289",
-        "2": "1484",
-        "3": "1577",
-        "4": "1634",
-        "team":""
-    },
-    {
-        "handle": "KUET_Sisyphus",
-        "1": "0",
-        "2": "0",
-        "3": "0",
-        "4": "1506",
-        "team":""
-    },
-    {
-        "handle": "KUET_Musashis",
-        "1": "1483",
-        "2": "1516",
-        "3": "1543",
-        "4": "1515",
-        "team":""
-    },
-    {
-        "handle": "KUET_BUGMAN",
-        "1": "1386",
-        "2": "1396",
-        "3": "1438",
-        "4": "1486",
-        "team":""
-    },
-    {
-        "handle": "KUET_Mayhem",
-        "1": "0",
-        "2": "0",
-        "3": "0",
-        "4": "1363",
-        "team":""
-    },
-    {
-        "handle": "KUET_Desperados",
-        "1": "0",
-        "2": "0",
-        "3": "0",
-        "4": "1338",
-        "team":""
-    },
-    {
-        "handle": "trinityRaven",
-        "1": "0",
-        "2": "1273",
-        "3": "0",
-        "4": "0",
-        "team":""
-    },
-    {
-        "handle": "Team_Phoenix",
-        "1": "1015",
-        "2": "1114",
-        "3": "1183",
-        "4": "1252"
-    },
-    {
-        "handle": "Team_Blackburn",
-        "1": "0",
-        "2": "0",
-        "3": "1252",
-        "4": "0",
-        "team":""
-    },
-    {
-        "handle": "KUET_Crusaders",
-        "1": "0",
-        "2": "0",
-        "3": "0",
-        "4": "1098",
-        "team":""
-    },
-    {
-        "handle": "Loop_Breakers",
-        "1": "0",
-        "2": "0",
-        "3": "1051",
-        "4": "0",
-        "team":""
-    },
-    {
-        "handle": "KUET_LAZYCODERS",
-        "1": "0",
-        "2": "0",
-        "3": "0",
-        "4": "1033",
-        "team":""
-    },
-    {
-        "handle": "ShowStoppers",
-        "1": "0",
-        "2": "0",
-        "3": "955",
-        "4": "0",
-        "team":""
-    },
-    {
-        "handle": "KUET_EXPLORERS",
-        "1": "0",
-        "2": "946",
-        "3": "0",
-        "4": "0",
-        "team":""
-    },
-    {
-        "handle": "KUET_Yeti",
-        "1": "0",
-        "2": "0",
-        "3": "0",
-        "4": "938",
-        "team":""
-    }
+            "handle": "handle",
+            "1": "RUET - 01",
+            "2": "RUET - 02",
+            "3": "RUET -03",
+            "4": "Collaborative - 26",
+            "team": "team_"
+        },
+        {
+            "handle": "KuetEffervescent",
+            "1": "1757",
+            "2": "1874",
+            "3": "1928",
+            "4": "1963",
+            "team": "Mehrab Hossain Opi '2k17\nArnob Sarker '2k18\nSHarif Minhazul Emon '2k18\n"
+        },
+        {
+            "handle": "KUET_BreakDown",
+            "1": "1177",
+            "2": "1487",
+            "3": "1561",
+            "4": "1660",
+            "team": "Md. Mustafizur Rahman Arman '2k17\nMahadi Hasan '2k17\nLikhon Sarker '2k16"
+        },
+        {
+            "handle": "KUET_FALCONS",
+            "1": "1595",
+            "2": "1621",
+            "3": "1697",
+            "4": "1693",
+            "team": "Sabbir Hossain '2k18\nS.M. Zobayer Abedin '2k19\nSajjad Hossain Sadi '2k19"
+        },
+        {
+            "handle": "KUET_Blaziken",
+            "1": "1289",
+            "2": "1484",
+            "3": "1577",
+            "4": "1634",
+            "team": "MD. Parvej Mia '2k18\nMd. Naimum Mukim '2k18\nMd. Liad Hossain '2k18"
+        },
+        {
+            "handle": "KUET_Sisyphus",
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "1506",
+            "team": ""
+        },
+        {
+            "handle": "KUET_Musashis",
+            "1": "1483",
+            "2": "1516",
+            "3": "1543",
+            "4": "1515",
+            "team": "Md. Shoriful Islam '2k18\nNur Mohammed Mehedy Hasan '2k18\nMD. Mehedi Hasan Emon '2k18"
+        },
+        {
+            "handle": "KUET_BUGMAN",
+            "1": "1386",
+            "2": "1396",
+            "3": "1438",
+            "4": "1486",
+            "team": "Eleus Ahammad '2k19\nZahidul Islam noel '2k19\nAzin Ahamed Zian '2k19\n"
+        },
+        {
+            "handle": "KUET_Mayhem",
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "1363",
+            "team": ""
+        },
+        {
+            "handle": "KUET_Desperados",
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "1338",
+            "team": ""
+        },
+        {
+            "handle": "trinityRaven",
+            "1": "0",
+            "2": "1273",
+            "3": "0",
+            "4": "0",
+            "team": ""
+        },
+        {
+            "handle": "Team_Phoenix",
+            "1": "1015",
+            "2": "1114",
+            "3": "1183",
+            "4": "1252",
+            "team": "Rifah Tasnim Haque Promi '2k17\nSuraiya Akter Mumu '2k17\nSubah Nawar '2k18"
+        },
+        {
+            "handle": "Team_Blackburn",
+            "1": "0",
+            "2": "0",
+            "3": "1252",
+            "4": "0",
+            "team": ""
+        },
+        {
+            "handle": "KUET_Crusaders",
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "1098",
+            "team": ""
+        },
+        {
+            "handle": "Loop_Breakers",
+            "1": "0",
+            "2": "0",
+            "3": "1051",
+            "4": "0",
+            "team": ""
+        },
+        {
+            "handle": "KUET_LAZYCODERS",
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "1033",
+            "team": ""
+        },
+        {
+            "handle": "ShowStoppers",
+            "1": "0",
+            "2": "0",
+            "3": "955",
+            "4": "0",
+            "team": ""
+        },
+        {
+            "handle": "KUET_EXPLORERS",
+            "1": "0",
+            "2": "946",
+            "3": "0",
+            "4": "0",
+            "team": ""
+        },
+        {
+            "handle": "KUET_Yeti",
+            "1": "0",
+            "2": "0",
+            "3": "0",
+            "4": "938",
+            "team": ""
+        }
     ];
 
     var col = [];
     for (var i = 0; i < Teams_ratings.length; i++) {
         var f = 0;
-       // console.log(Teams_ratings[i]);
+        // console.log(Teams_ratings[i]);
         for (var key in Teams_ratings[i]) {
             if (col.indexOf(key) === -1) {
                 col.push(key);
-               // if(f==0)
-               // console.log(key);
-                f=1;
+                // if(f==0)
+                // console.log(key);
+                f = 1;
             }
         }
     }
@@ -236,11 +236,11 @@ function loaddata(str) {
 
     var data = [];
 
-  //  console.log("\n\n\n\n"+str+"  : "+col.length);
+    //  console.log("\n\n\n\n"+str+"  : "+col.length);
 
 
     for (var i = 0; i < Teams_ratings.length; i++) {
-      //  console.log(Teams_ratings[i][col[4]]);
+        //  console.log(Teams_ratings[i][col[4]]);
         if (Teams_ratings[i][col[4]] == str) {
             for (var j = 0; j < col.length; j++) {
 
@@ -253,13 +253,12 @@ function loaddata(str) {
             break;
         }
     }
-   // console.log(data.length);
+    // console.log(data.length);
 
     return data;
 };
 
-function previous(data)
-{
+function previous(data) {
 
     var contest_name = [
         "RUET IUPC Practice - 01",
@@ -268,102 +267,115 @@ function previous(data)
         "ICPC Collaborative 26"
     ]
     // CREATE DYNAMIC TABLE.
-  var table = document.createElement("table");
+    var table = document.createElement("table");
 
-  console.log(data);
+    console.log(data);
 
-  // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
+    // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
 
-  var tr = table.insertRow(-1);                   // TABLE ROW.
+    var tr = table.insertRow(-1);                   // TABLE ROW.
 
-  var th = document.createElement("th");
-  th.innerHTML = "Contest id";
-  tr.appendChild(th);
+    var th = document.createElement("th");
+    th.innerHTML = "Contest id";
+    tr.appendChild(th);
 
-  th = document.createElement("th");
-  th.innerHTML = "Contest Name";
-  tr.appendChild(th);
+    th = document.createElement("th");
+    th.innerHTML = "Contest Name";
+    tr.appendChild(th);
 
 
- // tr = table.insertRow(-1);  
-  th = document.createElement("th");
-  th.innerHTML = "Changes";
-  tr.appendChild(th);
+    // tr = table.insertRow(-1);  
+    th = document.createElement("th");
+    th.innerHTML = "Changes";
+    tr.appendChild(th);
 
- // tr = table.insertRow(-1);  
-  th = document.createElement("th");
-  th.innerHTML = "New Rating";
-  tr.appendChild(th);
+    // tr = table.insertRow(-1);  
+    th = document.createElement("th");
+    th.innerHTML = "New Rating";
+    tr.appendChild(th);
 
-  var last = 1500;
-  for(var i = 0;i<data.length-2;i++){
-    tr = table.insertRow(-1);
-    var tabCell = tr.insertCell(-1);
+    var last = 1500;
+    var max_rating = 0;
+    var current_rating = 0;
+    for (var i = 0; i < data.length - 2; i++) {
+        tr = table.insertRow(-1);
+        var tabCell = tr.insertCell(-1);
 
-    tabCell.innerHTML = i+1;
-    tabCell = tr.insertCell(-1);
-    tabCell.innerHTML = contest_name[i];
+        tabCell.innerHTML = i + 1;
+        tabCell = tr.insertCell(-1);
+        tabCell.innerHTML = contest_name[i];
 
-    var val = parseInt(data[i]);
-    
+        var val = parseInt(data[i]);
 
-    tabCell = tr.insertCell(-1);
-    if(val==0){
-        tabCell.innerHTML = ("0").bold();
+
+        tabCell = tr.insertCell(-1);
+        if (val == 0) {
+            tabCell.innerHTML = ("?").bold();
+        }
+        else if (val - last >= 0) {
+            var new_ = val - last;
+            last = val;
+
+            tabCell.style.color = "green";
+            tabCell.innerHTML = ("+" + new_).bold();
+            
+        }
+
+        else {
+            var new_ = val - last;
+            last = val;
+
+
+            tabCell.style.color = "red";
+            tabCell.innerHTML = ("" + new_).bold();
+
+        }
+
+        tabCell = tr.insertCell(-1);
+        if (val == 0 && last != 1500) {
+            tabCell.innerHTML = last;
+            current_rating = last;
+        }
+        else{
+            tabCell.innerHTML = val;
+            current_rating = val;
+        }
+
+        max_rating = Math.max(max_rating, val);
     }
-    else if(val-last>=0 )
-    {
-        var new_ = val - last;
-        last = val;
-        
-        tabCell.style.color = "green";
-        tabCell.innerHTML = ("+"+new_).bold();
-    }
-    else{ 
-        var new_ = val - last;
-        last = val;
 
-
-        tabCell.style.color = "red";
-        tabCell.innerHTML = (""+new_).bold();
-
-    }
-
-    tabCell = tr.insertCell(-1);
-    tabCell.innerHTML = val;
-
-
-
-        
-}
+    document.getElementById("max_rating").innerHTML = max_rating + " ";
+    document.getElementById("curent_rating").innerHTML = current_rating + " ";
 
 
 
 
-  // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
-  var divContainer = document.getElementById("previous_changes");
-  divContainer.innerHTML = "";
-  divContainer.appendChild(table);
+
+
+    // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
+    var divContainer = document.getElementById("previous_changes");
+    divContainer.innerHTML = "";
+    divContainer.appendChild(table);
 
 }
 
 
 function indiFunction() {
 
-   
+
 
     var myParam = location.search.split('id=')[1];
     var data = loaddata(myParam);
     console.log(data.length);
     console.log(data);
-    google.charts.load('current', {packages: ['corechart', 'line']});
+    google.charts.load('current', { packages: ['corechart', 'line'] });
 
     google.charts.setOnLoadCallback(drawBackgroundColor(data));
     // for( var i in data){
     //     console.log(i);
     // }
     document.getElementById("Team_name").innerHTML = myParam + " ";
-    document.getElementById("team_member").innerHTML = data[data.length-1] + " ";
+    document.getElementById("team_member").innerHTML = data[data.length - 1] + " ";
 
     previous(data);
 
