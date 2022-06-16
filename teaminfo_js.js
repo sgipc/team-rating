@@ -66,157 +66,156 @@ function loaddata(str) {
     console.log(typeof(str));
     var Teams_ratings = [
         {
-            "handle": "name",
-            "1": "RUET practice - 01",
-            "2": "RUET practice - 02",
-            "3": "RUET practice - 03",
-            "4": "ICPC Collaborative - 26",
-            "team":"team_"
-        },
-        {
-            "handle": "KuetEffervescent",
-            "1": "1757",
-            "2": "1874",
-            "3": "1930",
-            "4": "1964",
-            "team":"Mehrab Hossain Opi '2k17\nArnob Sarker '2k18\nSHarif Minhazul Emon '2k18\n"
-        },
-        {
-            "handle": "KUET_BreakDown",
-            "1": "1483",
-            "2": "1642",
-            "3": "1654",
-            "4": "1716",
-            "team":"Md. Mustafizur Rahman Arman '2k17\nMahadi Hasan '2k17\nLikhon Sarker '2k16"
-        },
-        {
-            "handle": "KUET_FALCONS",
-            "1": "1595",
-            "2": "1621",
-            "3": "1702",
-            "4": "1699",
-            "team":""
-        },
-        {
-            "handle": "KUET_Blaziken",
-            "1": "1177",
-            "2": "1431",
-            "3": "1566",
-            "4": "1633",
-            "team":""
-        },
-        {
-            "handle": "KUET_Sisyphus",
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "1516",
-            "team":""
-        },
-        {
-            "handle": "KUET_Musashis",
-            "1": "1386",
-            "2": "1458",
-            "3": "1501",
-            "4": "1481",
-            "team":""
-        },
-        {
-            "handle": "KUET_BUGMAN",
-            "1": "1289",
-            "2": "1338",
-            "3": "1391",
-            "4": "1447",
-            "team":""
-        },
-        {
-            "handle": "KUET_Mayhem",
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "1358",
-            "team":""
-        },
-        {
-            "handle": "KUET_Desperados",
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "1330",
-            "team":""
-        },
-        {
-            "handle": "trinityRaven",
-            "1": "0",
-            "2": "1273",
-            "3": "0",
-            "4": "0",
-            "team":""
-        },
-        {
-            "handle": "Team_Phoenix",
-            "1": "1015",
-            "2": "1114",
-            "3": "1179",
-            "4": "1246",
-            "team":""
-        },
-        {
-            "handle": "Team_Blackburn",
-            "1": "0",
-            "2": "",
-            "3": "1231",
-            "4": "0",
-            "team":""
-        },
-        {
-            "handle": "KUET_Crusaders",
-            "1": "0",
-            "2": "",
-            "3": "0",
-            "4": "1090",
-            "team":""
-        },
-        {
-            "handle": "Loop_Breakers",
-            "1": "0",
-            "2": "",
-            "3": "1043",
-            "4": "0",
-            "team":""
-        },
-        {
-            "handle": "KUET_LAZYCODERS",
-            "1": "0",
-            "2": "",
-            "3": "0",
-            "4": "1027",
-            "team":""
-        },
-        {
-            "handle": "ShowStoppers",
-            "1": "0",
-            "2": "",
-            "3": "951",
-            "4": "0",
-            "team":""
-        },
-        {
-            "handle": "KUET_EXPLORERS",
-            "1": "0",
-            "2": "946",
-            "3": "0",
-            "4": "0",
-            "team":""
-        },
-        {
-            "handle": "KUET_Yeti",
-            "1": "0",
-            "2": "0",
-            "3": "0",
-            "4": "934",
-            "team":""
-        }
+        "handle": "handle",
+        "1": "RUET - 01",
+        "2": "RUET - 02",
+        "3": "RUET -03",
+        "4": "Collaborative - 26",
+        "team":"team_"
+    },
+    {
+        "handle": "KuetEffervescent",
+        "1": "1757",
+        "2": "1874",
+        "3": "1928",
+        "4": "1963",
+        "team":"Mehrab Hossain Opi '2k17\nArnob Sarker '2k18\nSHarif Minhazul Emon '2k18\n"
+    },
+    {
+        "handle": "KUET_BreakDown",
+        "1": "1177",
+        "2": "1487",
+        "3": "1561",
+        "4": "1660",
+        "team":"Md. Mustafizur Rahman Arman '2k17\nMahadi Hasan '2k17\nLikhon Sarker '2k16"
+    },
+    {
+        "handle": "KUET_FALCONS",
+        "1": "1595",
+        "2": "1621",
+        "3": "1697",
+        "4": "1693",
+        "team":""
+    },
+    {
+        "handle": "KUET_Blaziken",
+        "1": "1289",
+        "2": "1484",
+        "3": "1577",
+        "4": "1634",
+        "team":""
+    },
+    {
+        "handle": "KUET_Sisyphus",
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "1506",
+        "team":""
+    },
+    {
+        "handle": "KUET_Musashis",
+        "1": "1483",
+        "2": "1516",
+        "3": "1543",
+        "4": "1515",
+        "team":""
+    },
+    {
+        "handle": "KUET_BUGMAN",
+        "1": "1386",
+        "2": "1396",
+        "3": "1438",
+        "4": "1486",
+        "team":""
+    },
+    {
+        "handle": "KUET_Mayhem",
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "1363",
+        "team":""
+    },
+    {
+        "handle": "KUET_Desperados",
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "1338",
+        "team":""
+    },
+    {
+        "handle": "trinityRaven",
+        "1": "0",
+        "2": "1273",
+        "3": "0",
+        "4": "0",
+        "team":""
+    },
+    {
+        "handle": "Team_Phoenix",
+        "1": "1015",
+        "2": "1114",
+        "3": "1183",
+        "4": "1252"
+    },
+    {
+        "handle": "Team_Blackburn",
+        "1": "0",
+        "2": "0",
+        "3": "1252",
+        "4": "0",
+        "team":""
+    },
+    {
+        "handle": "KUET_Crusaders",
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "1098",
+        "team":""
+    },
+    {
+        "handle": "Loop_Breakers",
+        "1": "0",
+        "2": "0",
+        "3": "1051",
+        "4": "0",
+        "team":""
+    },
+    {
+        "handle": "KUET_LAZYCODERS",
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "1033",
+        "team":""
+    },
+    {
+        "handle": "ShowStoppers",
+        "1": "0",
+        "2": "0",
+        "3": "955",
+        "4": "0",
+        "team":""
+    },
+    {
+        "handle": "KUET_EXPLORERS",
+        "1": "0",
+        "2": "946",
+        "3": "0",
+        "4": "0",
+        "team":""
+    },
+    {
+        "handle": "KUET_Yeti",
+        "1": "0",
+        "2": "0",
+        "3": "0",
+        "4": "938",
+        "team":""
+    }
     ];
 
     var col = [];
