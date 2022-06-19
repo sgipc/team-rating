@@ -237,7 +237,7 @@ function myFunction() {
 
   // ADD JSON DATA TO THE TABLE AS ROWS.
 
-  var last_contest_no = "3";
+  var last_contest_no = "4";
   for (var i = 0; i < Teams.length; i++) {
 
       tr = table.insertRow(-1);
