@@ -3,85 +3,109 @@ function myFunction() {
     {
         "rank": "1",
         "handle": "KuetEffervescent",
-        "rating": "1963",
-        "contest_count": "4",
-        "rating_change": "35",
-        "last_contest": "3"
+        "rating": "1984",
+        "contest_count": "5",
+        "rating_change": "21",
+        "last_contest": "4"
     },
     {
         "rank": "2",
         "handle": "KUET_FALCONS",
-        "rating": "1693",
-        "contest_count": "4",
-        "rating_change": "-4",
-        "last_contest": "3"
+        "rating": "1738",
+        "contest_count": "5",
+        "rating_change": "45",
+        "last_contest": "4"
     },
     {
         "rank": "3",
         "handle": "KUET_BreakDown",
-        "rating": "1660",
-        "contest_count": "4",
-        "rating_change": "99",
-        "last_contest": "3"
+        "rating": "1682",
+        "contest_count": "5",
+        "rating_change": "22",
+        "last_contest": "4"
     },
     {
         "rank": "4",
         "handle": "KUET_Blaziken",
-        "rating": "1634",
-        "contest_count": "4",
-        "rating_change": "57",
-        "last_contest": "3"
+        "rating": "1674",
+        "contest_count": "5",
+        "rating_change": "40",
+        "last_contest": "4"
     },
     {
         "rank": "5",
-        "handle": "KUET_Musashis",
-        "rating": "1515",
-        "contest_count": "4",
-        "rating_change": "-28",
-        "last_contest": "3"
+        "handle": "KUET_Sisyphus",
+        "rating": "1590",
+        "contest_count": "2",
+        "rating_change": "84",
+        "last_contest": "4"
     },
     {
         "rank": "6",
-        "handle": "KUET_Sisyphus",
-        "rating": "1506",
-        "contest_count": "1",
-        "rating_change": "1506",
-        "last_contest": "3"
+        "handle": "KUET_BUGMAN",
+        "rating": "1525",
+        "contest_count": "5",
+        "rating_change": "39",
+        "last_contest": "4"
     },
     {
         "rank": "7",
-        "handle": "KUET_BUGMAN",
-        "rating": "1486",
-        "contest_count": "4",
-        "rating_change": "48",
-        "last_contest": "3"
+        "handle": "KUET_Musashis",
+        "rating": "1499",
+        "contest_count": "5",
+        "rating_change": "-16",
+        "last_contest": "4"
     },
     {
         "rank": "8",
-        "handle": "KUET_Mayhem",
-        "rating": "1363",
-        "contest_count": "1",
-        "rating_change": "1363",
-        "last_contest": "3"
+        "handle": "trinityRaven",
+        "rating": "1399",
+        "contest_count": "2",
+        "rating_change": "126",
+        "last_contest": "4"
     },
     {
         "rank": "9",
-        "handle": "KUET_Desperados",
-        "rating": "1338",
+        "handle": "KUET_RANGERS",
+        "rating": "1374",
         "contest_count": "1",
-        "rating_change": "1338",
-        "last_contest": "3"
+        "rating_change": "1374",
+        "last_contest": "4"
     },
     {
         "rank": "10",
-        "handle": "trinityRaven",
-        "rating": "1273",
-        "contest_count": "1",
-        "rating_change": "1273",
-        "last_contest": "1"
+        "handle": "KUET_Crusaders",
+        "rating": "1345",
+        "contest_count": "2",
+        "rating_change": "247",
+        "last_contest": "4"
     },
     {
         "rank": "11",
+        "handle": "KUET_Desperados",
+        "rating": "1341",
+        "contest_count": "2",
+        "rating_change": "3",
+        "last_contest": "4"
+    },
+    {
+        "rank": "12",
+        "handle": "KUET_Mayhem",
+        "rating": "1329",
+        "contest_count": "2",
+        "rating_change": "-34",
+        "last_contest": "4"
+    },
+    {
+        "rank": "13",
+        "handle": "Team_Phoenix",
+        "rating": "1290",
+        "contest_count": "5",
+        "rating_change": "38",
+        "last_contest": "4"
+    },
+    {
+        "rank": "14",
         "handle": "Team_Blackburn",
         "rating": "1252",
         "contest_count": "1",
@@ -89,23 +113,31 @@ function myFunction() {
         "last_contest": "2"
     },
     {
-        "rank": "12",
-        "handle": "Team_Phoenix",
-        "rating": "1252",
-        "contest_count": "4",
-        "rating_change": "69",
-        "last_contest": "3"
+        "rank": "15",
+        "handle": "ShowStoppers",
+        "rating": "1240",
+        "contest_count": "2",
+        "rating_change": "285",
+        "last_contest": "4"
     },
     {
-        "rank": "13",
-        "handle": "KUET_Crusaders",
-        "rating": "1098",
+        "rank": "16",
+        "handle": "KUET_Valkyries",
+        "rating": "1054",
         "contest_count": "1",
-        "rating_change": "1098",
-        "last_contest": "3"
+        "rating_change": "1054",
+        "last_contest": "4"
     },
     {
-        "rank": "14",
+        "rank": "17",
+        "handle": "KUET_LAZYCODERS",
+        "rating": "1053",
+        "contest_count": "2",
+        "rating_change": "20",
+        "last_contest": "4"
+    },
+    {
+        "rank": "18",
         "handle": "Loop_Breakers",
         "rating": "1051",
         "contest_count": "1",
@@ -113,23 +145,23 @@ function myFunction() {
         "last_contest": "2"
     },
     {
-        "rank": "15",
-        "handle": "KUET_LAZYCODERS",
-        "rating": "1033",
+        "rank": "19",
+        "handle": "KUET_Phantoms",
+        "rating": "1021",
         "contest_count": "1",
-        "rating_change": "1033",
-        "last_contest": "3"
+        "rating_change": "1021",
+        "last_contest": "4"
     },
     {
-        "rank": "16",
-        "handle": "ShowStoppers",
-        "rating": "955",
+        "rank": "20",
+        "handle": "kuet_101",
+        "rating": "982",
         "contest_count": "1",
-        "rating_change": "955",
-        "last_contest": "2"
+        "rating_change": "982",
+        "last_contest": "4"
     },
     {
-        "rank": "17",
+        "rank": "21",
         "handle": "KUET_EXPLORERS",
         "rating": "946",
         "contest_count": "1",
@@ -137,7 +169,7 @@ function myFunction() {
         "last_contest": "1"
     },
     {
-        "rank": "18",
+        "rank": "22",
         "handle": "KUET_Yeti",
         "rating": "938",
         "contest_count": "1",
