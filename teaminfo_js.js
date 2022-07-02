@@ -71,6 +71,7 @@ function loaddata(str) {
             "3": "RUET -03",
             "4": "Collaborative - 26",
             "5": "Collaborative - 27",
+            "6": "Collaborative - 28",
             "team": "team"
         },
         {
@@ -80,7 +81,8 @@ function loaddata(str) {
             "3": "1928",
             "4": "1963",
             "5": "1984",
-            "team": "Mehrab Hossain Opi '2k17\nArnob Sarker '2k18\nSHarif Minhazul Emon '2k18\\n"
+            "6": "1996",
+            "team": "Mehrab Hossain Opi '2k17\nArnob Sarker '2k18\nSHarif Minhazul Emon '2k18"
         },
         {
             "handle": "KUET_BreakDown",
@@ -89,6 +91,7 @@ function loaddata(str) {
             "3": "1697",
             "4": "1660",
             "5": "1682",
+            "6": "1689",
             "team": "Md. Mustafizur Rahman Arman '2k17\nMahadi Hasan '2k17\nLikhon Sarker '2k16"
         },
         {
@@ -98,6 +101,7 @@ function loaddata(str) {
             "3": "1561",
             "4": "1693",
             "5": "1738",
+            "6": "1766",
             "team": "Sabbir Hossain '2k18\nS.M. Zobayer Abedin '2k19\nSajjad Hossain Sadi '2k19"
         },
         {
@@ -107,6 +111,7 @@ function loaddata(str) {
             "3": "1577",
             "4": "1634",
             "5": "1674",
+            "6": "1698",
             "team": "MD. Parvej Mia '2k18\nMd. Naimum Mukim '2k18\nMd. Liad Hossain '2k18"
         },
         {
@@ -116,6 +121,7 @@ function loaddata(str) {
             "3": "0",
             "4": "1506",
             "5": "1590",
+            "6": "1584",
             "team": ""
         },
         {
@@ -125,6 +131,7 @@ function loaddata(str) {
             "3": "1543",
             "4": "1515",
             "5": "1499",
+            "6": "1535",
             "team": "Md. Shoriful Islam '2k18\nNur Mohammed Mehedy Hasan '2k18\nMD. Mehedi Hasan Emon '2k18"
         },
         {
@@ -134,7 +141,8 @@ function loaddata(str) {
             "3": "1438",
             "4": "1486",
             "5": "1525",
-            "team": "Eleus Ahammad '2k19\nZahidul Islam noel '2k19\nAzin Ahamed Zian '2k19\\n"
+            "6": "1541",
+            "team": "Eleus Ahammad '2k19\nZahidul Islam noel '2k19\nAzin Ahamed Zian '2k19"
         },
         {
             "handle": "KUET_Mayhem",
@@ -143,6 +151,7 @@ function loaddata(str) {
             "3": "0",
             "4": "1363",
             "5": "1329",
+            "6": "1340",
             "team": ""
         },
         {
@@ -152,6 +161,7 @@ function loaddata(str) {
             "3": "0",
             "4": "1338",
             "5": "1341",
+            "6": "0",
             "team": ""
         },
         {
@@ -161,6 +171,7 @@ function loaddata(str) {
             "3": "0",
             "4": "0",
             "5": "1399",
+            "6": "1383",
             "team": ""
         },
         {
@@ -170,51 +181,57 @@ function loaddata(str) {
             "3": "1183",
             "4": "1252",
             "5": "1290",
+            "6": "1257",
             "team": "Rifah Tasnim Haque Promi '2k17\nSuraiya Akter Mumu '2k17\nSubah Nawar '2k18"
         },
         {
             "handle": "Team_Blackburn",
             "1": "0",
-            "2": "0",
+            "2": "",
             "3": "1252",
             "4": "0",
             "5": "0",
+            "6": "0",
             "team": ""
         },
         {
             "handle": "KUET_Crusaders",
             "1": "0",
-            "2": "0",
+            "2": "",
             "3": "0",
             "4": "1098",
             "5": "1345",
+            "6": "0",
             "team": ""
         },
         {
             "handle": "Loop_Breakers",
             "1": "0",
-            "2": "0",
+            "2": "",
             "3": "1051",
             "4": "0",
             "5": "0",
+            "6": "0",
             "team": ""
         },
         {
             "handle": "KUET_LAZYCODERS",
             "1": "0",
-            "2": "0",
+            "2": "",
             "3": "0",
             "4": "1033",
             "5": "1053",
+            "6": "1114",
             "team": ""
         },
         {
             "handle": "ShowStoppers",
             "1": "0",
-            "2": "0",
+            "2": "",
             "3": "955",
             "4": "0",
             "5": "1240",
+            "6": "1349",
             "team": ""
         },
         {
@@ -224,15 +241,17 @@ function loaddata(str) {
             "3": "0",
             "4": "0",
             "5": "0",
+            "6": "0",
             "team": ""
         },
         {
             "handle": "KUET_Yeti",
             "1": "0",
-            "2": "0",
+            "2": "",
             "3": "0",
             "4": "938",
             "5": "0",
+            "6": "0",
             "team": ""
         },
         {
@@ -242,6 +261,7 @@ function loaddata(str) {
             "3": "0",
             "4": "0",
             "5": "1374",
+            "6": "0",
             "team": ""
         },
         {
@@ -251,6 +271,7 @@ function loaddata(str) {
             "3": "0",
             "4": "0",
             "5": "1054",
+            "6": "1227",
             "team": ""
         },
         {
@@ -260,6 +281,7 @@ function loaddata(str) {
             "3": "0",
             "4": "0",
             "5": "982",
+            "6": "0",
             "team": ""
         },
         {
@@ -269,6 +291,7 @@ function loaddata(str) {
             "3": "0",
             "4": "0",
             "5": "1021",
+            "6": "0",
             "team": ""
         }
     ];
@@ -296,7 +319,7 @@ function loaddata(str) {
 
     for (var i = 0; i < Teams_ratings.length; i++) {
        //   console.log(Teams_ratings[i][col[5]]);
-        if (Teams_ratings[i][col[5]] == str) {
+        if (Teams_ratings[i].handle == str) {
             for (var j = 0; j < col.length; j++) {
 
                 //if(j==col.length-2) continue;
@@ -320,7 +343,8 @@ function previous(data) {
         "RUET IUPC Practice - 02",
         "RUET IUPC Practice - 03",
         "ICPC Collaborative 26",
-        "ICPC Collaborative 27"
+        "ICPC Collaborative 27",
+        "ICPC Collaborative 28",
     ]
     // CREATE DYNAMIC TABLE.
     var table = document.createElement("table");
