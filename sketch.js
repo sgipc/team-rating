@@ -1,14 +1,6 @@
 function myFunction() {
   var Teams = [
     {
-      "rank": "rank",
-      "handle": "handle",
-      "rating": "display_rating",
-      "contest_count": "num_contests",
-      "rating_change": "last_change",
-      "last_contest": "last_contest_index"
-    },
-    {
       "rank": "1",
       "handle": "KuetEffervescent",
       "rating": "1996",
@@ -243,7 +235,7 @@ function myFunction() {
   // ADD JSON DATA TO THE TABLE AS ROWS.
 
   var last_contest_no = "5";
-  for (var i = 0; i < Teams.length-1; i++) {
+  for (var i = 0; i < Teams.length; i++) {
 
     tr = table.insertRow(-1);
 
